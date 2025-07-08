@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lali MC Nepal - Best Minecraft Server</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="icon" type="image/png" href="asset/favicon.ico" />
+
+</head>
+
+<body>
+
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="asset/image/LALI_MC_LOGOGO.png"
+                alt="Lali MC Nepal Minecraft server logo featuring mountains and Nepali flag" />
+            <h1>Lali MC Nepal</h1>
+        </div>
+        <button class="mobile-menu-btn" id="menuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#games">Games</a>
+            <a href="#survival-ranks">Ranks</a>
+            <a href="#about">About</a>
+            <a href="#discord">Discord</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" onclick="openVoteModal()">Vote</a>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h2>Welcome to Lali MC Nepal</h2>
+        <p>
+            The best Minecraft server experience with multiple game modes
+            including Survival, Lifesteal, FFA, and Minigames. Join our vibrant
+            community today!
+        </p>
+        <a href="https://discord.gg/6UpVRW8pjm" class="cta-button" target="_blank">Join
+            Now</a>
+    </section>
+    <!-- Games Section -->
+    <section class="games-section" id="games">
+        <h2 class="section-title">Our Game Modes</h2>
+        <div class="games-container">
+            <div class="game-card animate-fade">
+                <div class="game-image">
+                    <img src="asset/image/survival.png"
+                        alt="Minecraft survival mode landscape with mountains, forests and a small village" />
+                </div>
+                <div class="game-content">
+                    <h3 class="game-title">Survival</h3>
+                    <p class="game-description">
+                        Experience classic Minecraft gameplay with enhanced features and
+                        an active economy system.
+                    </p>
+                    <a href="#survival" class="game-button">Learn More</a>
+                </div>
+            </div>
+
+            <div class="game-card animate-fade delay-1">
+                <div class="game-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/dd364936-4516-423a-bdb6-c606c6a5a1aa.png"
+                        alt="Minecraft lifesteal battlefield with enchanted armor and weapons" />
+                </div>
+                <div class="game-content">
+                    <h3 class="game-title">Lifesteal</h3>
+                    <p class="game-description">
+                        Fight opponents to steal their health! Every kill strengthens you
+                        while defeat weakens you.
+                    </p>
+                    <a href="#lifesteal" class="game-button">Learn More</a>
+                </div>
+            </div>
+
+            <div class="game-card animate-fade delay-2">
+                <div class="game-image">
+                    <img src="asset/image/pvp.png" alt="Minecraft FFA arena with colorful banners and player combat" />
+                </div>
+                <div class="game-content">
+                    <h3 class="game-title">FFA</h3>
+                    <p class="game-description">
+                        Free For All PvP battles where the last player standing wins the
+                        match.
+                    </p>
+                    <a href="#ffa" class="game-button">Learn More</a>
+                </div>
+            </div>
+
+            <div class="game-card animate-fade delay-3">
+                <div class="game-image">
+                    <img src="asset/image/minigames.png" alt="Minecraft minigames like spleef and parkour" />
+                </div>
+                <div class="game-content">
+                    <h3 class="game-title">Minigames</h3>
+                    <p class="game-description">
+                        Enjoy various fun minigames such as Spleef, Parkour, and more.
+                    </p>
+                    <a href="#minigames" class="game-button">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Survival Ranks Section -->
+    <section class="ranks-section" id="survival-ranks">
+        <h2 class="section-title">Survival / Lifesteal Server Ranks</h2>
+        <div class="ranks-container">
+
+            <!-- Custom Rank -->
+            <div class="rank-card animate-fade">
+                <div class="rank-icon"><i class="fas fa-star"></i></div>
+                <h3 class="rank-title">Custom Rank</h3>
+                <p class="rank-price">NPR रु.1000</p>
+                <ul class="rank-features">
+                    <li>Fully customizable name & color</li>
+                    <li>Custom tag and particles</li>
+                    <li>Direct contact with admin</li>
+                </ul>
+                <button class="buy-button buy-now-btn">Buy Now</button>
+
+            </div>
+
+            <!-- Lali Rank -->
+            <div class="rank-card animate-fade delay-1">
+                <div class="rank-icon"><i class="fas fa-heart"></i></div>
+                <h3 class="rank-title">Lali Rank</h3>
+                <p class="rank-price">NPR रु.200 / INR ₹125 / USD $1.5</p>
+                <ul class="rank-features">
+                    <li>Chat prefix + Lali tag</li>
+                    <li>1 sethome</li>
+                    <li>/hat command</li>
+                </ul>
+                <button class="buy-button buy-now-btn">Buy Now</button>
+
+            </div>
+
+            <!-- Eternal Rank -->
+            <div class="rank-card animate-fade delay-2">
+                <div class="rank-icon"><i class="fas fa-infinity"></i></div>
+                <h3 class="rank-title">Eternal Rank</h3>
+                <p class="rank-price">NPR रु.500 / INR ₹320 / USD $3.65</p>
+                <ul class="rank-features">
+                    <li>Multiple sethomes</li>
+                    <li>/feed command</li>
+                    <li>Colorful name tag</li>
+                </ul>
+                <button class="buy-button buy-now-btn">Buy Now</button>
+
+            </div>
+
+            <!-- Bir Rank -->
+            <div class="rank-card animate-fade delay-3">
+                <div class="rank-icon"><i class="fas fa-shield-alt"></i></div>
+                <h3 class="rank-title">Bir Rank</h3>
+                <p class="rank-price">NPR रु.500 / INR ₹320 / USD $3.65</p>
+                <ul class="rank-features">
+                    <li>All Eternal perks</li>
+                    <li>Combat perks</li>
+                    <li>Rare items monthly</li>
+                </ul>
+                <button class="buy-button buy-now-btn">Buy Now</button>
+
+            </div>
+
+            <!-- Sipahi Rank -->
+            <div class="rank-card animate-fade delay-4">
+                <div class="rank-icon"><i class="fas fa-user-shield"></i></div>
+                <h3 class="rank-title">Sipahi Rank</h3>
+                <p class="rank-price">NPR रु.200 / INR ₹125 / USD $1.5</p>
+                <ul class="rank-features">
+                    <li>Basic commands access</li>
+                    <li>Exclusive armor kit</li>
+                    <li>Survival tag</li>
+                </ul>
+                <button class="buy-button buy-now-btn">Buy Now</button>
+
+            </div>
+
+            <!-- Yoddha Rank -->
+            <div class="rank-card animate-fade delay-5">
+                <div class="rank-icon"><i class="fas fa-bolt"></i></div>
+                <h3 class="rank-title">Yoddha Rank</h3>
+                <p class="rank-price">NPR रु.100 / INR ₹65 / USD $1</p>
+                <ul class="rank-features">
+                    <li>Yoddha chat tag</li>
+                    <li>1 sethome</li>
+                    <li>/me command access</li>
+                </ul>
+                <button class="buy-button buy-now-btn">Buy Now</button>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Server Info Section with Live Java & Bedrock Status -->
+    <section class="server-info" id="about">
+        <div class="server-stats animate-fade">
+            <h3>Java Server Information</h3>
+            <div class="stat-item">
+                <span class="stat-label">IP:</span>
+                <span class="stat-value">play.lalimc.fun</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Version:</span>
+                <span id="serverVersion" class="stat-value">Loading...</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Players Online:</span>
+                <span id="playersOnline" class="stat-value">Loading...</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Status:</span>
+                <span id="serverStatus" class="stat-value">Loading...</span>
+            </div>
+
+            <h3 style="margin-top: 2rem;">Bedrock Server Information</h3>
+            <div class="stat-item">
+                <span class="stat-label">IP:</span>
+                <span class="stat-value">play.lalimc.fun</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Port:</span>
+                <span class="stat-value">6993</span>
+            </div>
+
+            <div class="stat-item">
+                <span class="stat-label">Discord:</span>
+                <span class="stat-value">
+                    <a href="https://discord.gg/example" target="_blank" rel="noopener"
+                        style="color: var(--accent)">Join Discord</a>
+                </span>
+            </div>
+        </div>
+    </section>
+
+<!--Buy Ranks-->
+  <div style="padding: 2rem; background-color: #fff; max-width: 600px; margin: auto; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  <h2 style="text-align: center; color: #7209b7; margin-bottom: 1rem;">🛒 Buy a Rank</h2>
+  <form action="https://formspree.io/f/xgvyjywq" method="POST">
+
+    <!-- In-game Name -->
+    <input type="text" name="ign" placeholder="Your In-Game Name" required
+      style="width: 100%; padding: 12px; margin-bottom: 1rem; border-radius: 8px; border: 1px solid #ccc;" />
+
+    <!-- Game Mode -->
+    <label style="font-weight: bold;">Game Mode:</label>
+    <select name="game_mode" required
+      style="width: 100%; padding: 12px; margin-bottom: 1rem; border-radius: 8px; border: 1px solid #ccc;">
+      <option value="">Select Game Mode</option>
+      <option value="Survival">Survival</option>
+      <option value="Lifesteal">Lifesteal</option>
+    </select>
+
+    <!-- Platform -->
+    <label style="font-weight: bold;">Platform:</label>
+    <select name="platform" required
+      style="width: 100%; padding: 12px; margin-bottom: 1rem; border-radius: 8px; border: 1px solid #ccc;">
+      <option value="">Select Platform</option>
+      <option value="Java">Java</option>
+      <option value="Bedrock">Bedrock</option>
+    </select>
+
+    <!-- Rank Selection -->
+    <label style="font-weight: bold;">Select Rank:</label>
+    <select name="rank" required
+      style="width: 100%; padding: 12px; margin-bottom: 1rem; border-radius: 8px; border: 1px solid #ccc;">
+      <option value="">Choose a Rank</option>
+      <option value="Custom">Custom Rank – NPR रु.1000</option>
+      <option value="Lali">Lali Rank – NPR रु.200</option>
+      <option value="Eternal">Eternal Rank – NPR रु.500</option>
+      <option value="Bir">Bir Rank – NPR रु.500</option>
+      <option value="Sipahi">Sipahi Rank – NPR रु.200</option>
+      <option value="Yoddha">Yoddha Rank – NPR रु.100</option>
+    </select>
+
+    <!-- Email -->
+    <input type="email" name="email" placeholder="Your Email" required
+      style="width: 100%; padding: 12px; margin-bottom: 1rem; border-radius: 8px; border: 1px solid #ccc;" />
+
+    <!-- Phone -->
+    <input type="text" name="phone" placeholder="Your Phone Number" required
+      style="width: 100%; padding: 12px; margin-bottom: 1rem; border-radius: 8px; border: 1px solid #ccc;" />
+
+    <!-- Discord -->
+    <input type="text" name="discord" placeholder="Your Discord ID (e.g. RahulJha#1234)" required
+      style="width: 100%; padding: 12px; margin-bottom: 1rem; border-radius: 8px; border: 1px solid #ccc;" />
+
+    <!-- Payment Method -->
+    <label style="font-weight: bold;">Payment Method:</label>
+    <select name="payment_method" required
+      style="width: 100%; padding: 12px; margin-bottom: 1rem; border-radius: 8px; border: 1px solid #ccc;">
+      <option value="">Choose Payment Method</option>
+      <option value="eSewa">eSewa (9809270058)</option>
+      <option value="Khalti">Khalti (9809270058)</option>
+      <option value="PayPal">PayPal (9809270058)</option>
+    </select>
+
+    <!-- Screenshot -->
+    <input type="url" name="screenshot_link" placeholder="Paste Payment Screenshot Link (e.g. imgur.com/...)" required
+      style="width: 100%; padding: 12px; margin-bottom: 0.5rem; border-radius: 8px; border: 1px solid #ccc;" />
+    <p style="font-size: 0.9rem; color: gray; margin-bottom: 1rem;">
+      📎 Upload screenshot to <a href="https://imgur.com" target="_blank">imgur.com</a> or <a
+        href="https://postimages.org" target="_blank">postimages.org</a> and paste the link here.
+    </p>
+
+    <!-- Submit -->
+    <button type="submit"
+      style="background-color: #7209b7; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 1rem; cursor: pointer; width: 100%;">
+      Submit Order
+    </button>
+
+    <!-- Scam Warning -->
+    <p style="font-size: 0.85rem; color: #555; margin-top: 1rem; text-align: center;">
+      ⚠️ Please make sure your info is correct. You’ll receive your rank within <strong>24 hours</strong> after payment verification. LaliMC will never scam you.
+    </p>
+  </form>
+</div>
+
+
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact" style="padding: 4rem 2rem; text-align:center;">
+        <h2 class="section-title">Contact Us</h2>
+        <p>For support or inquiries, reach out via Discord or Email.</p>
+        <p>Email: support@lalimc.fun</p>
+        <p>
+            Discord: <a href="https://discord.gg/6UpVRW8pjm" target="_blank" rel="noopener"
+                style="color: var(--accent)">Join our Discord</a>
+        </p>
+    </section>
+    <!-- Vote Modal with Embedded iframes -->
+    <div id="voteModal" style="
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;">
+        <div style="
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 95%;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;">
+
+            <h2 style="color: #3a0ca3; margin-bottom: 0.5rem;">Vote for Lali MC</h2>
+            <p>Support our server by voting on these platforms:</p>
+
+            <!-- Tabs -->
+            <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                <button onclick="showVoteSite('site1')" id="btn-site1"
+                    style="flex:1; padding: 8px; cursor:pointer; font-weight:bold;">TopMinecraftServers.org</button>
+                <button onclick="showVoteSite('site2')" id="btn-site2"
+                    style="flex:1; padding: 8px; cursor:pointer;">MinecraftServers.org</button>
+                <button onclick="showVoteSite('site3')" id="btn-site3"
+                    style="flex:1; padding: 8px; cursor:pointer;">Minecraft-MP.com</button>
+                <button onclick="showVoteSite('site4')" id="btn-site4"
+                    style="flex:1; padding: 8px; cursor:pointer;">TopG.org</button>
+            </div>
+
+            <!-- Embedded iframe containers -->
+            <div style="flex: 1; border: 1px solid #ccc; border-radius: 8px; overflow: hidden;">
+                <iframe id="site1" src="https://minecraft-mp.com/server-s345015"
+                    style="width: 100%; height: 100%; border: none;"></iframe>
+                <iframe id="site2" src="https://minecraftservers.org/server/675060"
+                    style="width: 100%; height: 100%; border: none; display:none;"></iframe>
+                <iframe id="site3" src="https://minecraft-server-list.com/server/512664/"
+                    style="width: 100%; height: 100%; border: none; display:none;"></iframe>
+                <iframe id="site4" src="https://www.planetminecraft.com/server/lali-mc/"
+                    style="width: 100%; height: 100%; border: none; display:none;"></iframe>
+            </div>
+
+            <button onclick="closeVoteModal()" style="
+      background-color: #f44336;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+      align-self: flex-end;">Close</button>
+        </div>
+    </div>
+
+    <!-- Chat Button -->
+    <a href="https://discord.gg/6UpVRW8pjm" target="_blank" class="chat-btn" title="Chat with Us"
+        rel="noopener noreferrer">
+        <i class="fas fa-comments"></i>
+        <span class="tooltip">Chat with us</span>
+    </a>
+
+    <!-- Discount Popup Modal -->
+    <div id="discountPopup" style="
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 10000;
+  justify-content: center;
+  align-items: center;
+">
+        <div style="
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    position: relative;
+  ">
+            <h2 style="color: #7209b7; margin-bottom: 1rem;">🎉 Special Offer! 🎉</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 1.5rem;">Get <strong>25% OFF</strong> on all Survival &
+                Lifesteal Server Ranks!</p>
+            <button id="closeDiscountBtn" style="
+      background: #7209b7;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    ">Close</button>
+        </div>
+    </div>
+
+    <!-- Payment Modal -->
+    <div id="paymentModal" style="
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 10001;
+  justify-content: center;
+  align-items: center;
+">
+        <div style="
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    text-align: center;
+    position: relative;
+  ">
+            <h2 style="color: #3a0ca3; margin-bottom: 1rem;">Pay for your Rank</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 1rem;">
+                Please pay using one of the following methods:
+            </p>
+            <ul style="list-style: none; padding: 0; margin-bottom: 1.5rem; font-size: 1.1rem; color: #555;">
+                <li><strong>eSewa:</strong> 9809270058</li>
+                <li><strong>Khalti:</strong> 9809270058</li>
+                <li><strong>PayPal:</strong> 9809270058</li>
+            </ul>
+            <p style="margin-bottom: 1rem;">After payment, please contact us on Discord to confirm your purchase.</p>
+
+            <button id="closePaymentBtn" style="
+      background-color: #f44336;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    ">Close</button>
+        </div>
+    </div>
+
+    <!-- Server Info Popup on Page Load -->
+    <div id="serverPopup" style="
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+">
+        <div style="
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    position: relative;
+  ">
+            <h2 style="color: #3a0ca3; margin-bottom: 1rem;">🎮 Join Lali MC Nepal</h2>
+            <p style="font-size: 1.1rem;">Server IP:</p>
+            <div onclick="copyToClipboard('play.lalimc.fun')" style="
+        background: #f0f0f0;
+        padding: 8px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        user-select: none;
+        margin-bottom: 10px;
+    ">
+                <code id="ipText">play.lalimc.fun</code> <span style="color: green;">📋</span>
+            </div>
+
+            <p style="font-size: 1.1rem;">Bedrock Port:</p>
+            <div onclick="copyToClipboard('6993')" style="
+        background: #f0f0f0;
+        padding: 8px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        user-select: none;
+        margin-bottom: 15px;
+    ">
+                <code id="portText">6993</code> <span style="color: green;">📋</span>
+            </div>
+
+            <p style="font-size: 0.85rem; color: gray;">Click to copy</p>
+
+            <button onclick="document.getElementById('serverPopup').style.display='none'" style="
+      margin-top: 1rem;
+      padding: 0.6rem 1.5rem;
+      background-color: #7209b7;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    ">Close</button>
+
+            <p style="font-size: 10px; color: #aaa; margin-top: 1rem;">Design by RahulJha</p>
+        </div>
+    </div>
+    <!-- Event Winners Section -->
+<section id="event-winners" style="padding: 4rem 2rem; background-color: #fff;">
+  <h2 style="text-align: center; color: #7209b7; margin-bottom: 1rem;">🏅 Lali MC Event Winners</h2>
+  
+  <div id="winners-container" style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;"></div>
+
+  <div style="text-align: center; margin-top: 2rem;">
+    <button id="editWinnersBtn" style="padding: 0.7rem 1.5rem; background: #7209b7; color: white; border: none; border-radius: 5px; cursor: pointer;">Edit Winners</button>
+  </div>
+
+  <!-- Edit Modal -->
+  <div id="editModal" style="display:none; position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.6); justify-content:center; align-items:center; z-index: 10000;">
+    <div style="background: white; padding: 1.5rem; border-radius: 10px; max-width: 500px; width: 90%; position: relative;">
+      <h3 style="margin-bottom: 1rem; color: #7209b7;">Edit Event Winners</h3>
+      <form id="winnersForm" style="display: flex; flex-direction: column; gap: 1rem;">
+        <!-- Winners inputs will be generated here by JS -->
+      </form>
+      <div style="margin-top: 1rem; text-align: right;">
+        <button id="saveBtn" style="padding: 0.5rem 1rem; background: #3a0ca3; color: white; border: none; border-radius: 5px; cursor: pointer;">Save</button>
+        <button id="cancelBtn" style="padding: 0.5rem 1rem; margin-left: 0.5rem; background: #f44336; color: white; border: none; border-radius: 5px; cursor: pointer;">Cancel</button>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About Lali MC Nepal</h3>
+                <p>
+                    Lali MC Nepal is the premier Minecraft server in Nepal offering
+                    multiple game modes and a friendly community.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#games">Games</a></li>
+                    <li><a href="#ranks">Ranks</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://discord.gg/lalimc" target="_blank" aria-label="Discord" rel="noopener noreferrer">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@lalimc11" target="_blank" aria-label="YouTube"
+                        rel="noopener noreferrer">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mrzaxxcraft/" target="_blank" aria-label="Instagram"
+                        rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Lali MC Nepal. All rights reserved. <br>
+                <small style="font-size: 12px; color: #ccc;">Design by <strong>Rahul Jha</strong></small>
+            </div>
+
+
+    </footer>
+
+    <script src="asset/js/style.js"></script>
+</body>
+
+</html>
